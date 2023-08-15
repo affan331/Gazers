@@ -1,0 +1,214 @@
+
+
+body {
+    background-color: #f0f9fa;
+
+}
+
+li{
+    list-style: none;
+}
+.nav-list {
+
+    float: right;
+}
+
+.container{
+
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.navbar {
+
+    display: inline-flex;
+}
+
+.nav-bar-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-header object{
+    margin-top: 5px;
+}
+
+
+button[type=submit] {
+    padding: 15px 35px;
+    border: black solid 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.nav-sign-up {
+
+    background: transparent;
+}
+
+.nav-sign-up:hover {
+
+    background: #f2c100;
+}
+
+
+.nav-sign-up2 {
+
+    background-color: #f2c100;
+}
+
+
+.nav-sign-up2:hover {
+
+    background-color: transparent;
+}
+
+.contact-us {
+
+    background-color: #f2c100;
+}
+
+.nav-list,
+a {
+
+    align-items: inherit;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.nav-list {
+    text-decoration: none;
+    column-gap: 5px;
+    float: right;
+
+}
+
+.nav-list,
+a:hover {
+
+    color: #f2c100;
+}
+
+li:visited {
+
+    text-decoration: none;
+}
+
+.contact-us {
+
+    background: transparent;
+}
+
+.contact-us:hover {
+
+    background-color: #f2c100;
+}
+
+.sign-up li {
+
+    padding: 5px;
+    display: flex;
+    float: right;
+}
+
+
+.hero {
+    position:relative;
+    margin-top: 50px;
+    color: black;
+}
+.hero .flex, .contact-form .row .flex
+{
+    float: left;
+    width: 50%;
+}
+
+.scribble{
+    align-items: center;
+    max-width: 100%;
+}
+
+.scribble img{
+
+    margin-left: 44%;
+}
+.text-center{
+    
+    text-align: center;
+
+}
+
+.apps-list li{
+    display: inline-block;
+    margin-right: 3vw;
+    font-size: 15px;
+}
+.apps-list li:nth-child(1)
+{
+    margin-left: 3%;
+}
+
+.apps-list li object{
+
+    height: 115px;
+    width: 50px;
+}
+
+input {
+    display: block;
+    border-radius: 4px;
+    width: 80%;
+    /* height: px; */
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+textarea {
+    padding-right: 14px;
+    padding-left: 14px;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    border-color: #e6eef6;
+    border-radius: 4px;
+}
+
+textarea:focus{
+
+    outline: 1px solid #f2c100;
+
+}
+
+input:focus
+{
+    outline: 1px solid #f2c100;
+}
+
+.nav-sign-up2
+{
+    font-size: 20px;
+}
+.ml-10
+{
+    margin-left : 30%;
+}
+.w-full
+{
+    width: 100%;
+}
